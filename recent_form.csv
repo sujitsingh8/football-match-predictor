@@ -1,0 +1,51 @@
+team,date,opponent,venue,goals_for,goals_against,result
+Manchester City,2026-03-22,Chelsea,A,1,1,D
+Manchester City,2026-03-15,Newcastle,H,3,1,W
+Manchester City,2026-03-08,Arsenal,A,0,1,L
+Manchester City,2026-03-01,Bournemouth,H,2,1,W
+Manchester City,2026-02-22,Brighton,A,2,3,L
+Real Madrid,2026-03-22,Celta Vigo,H,3,0,W
+Real Madrid,2026-03-15,Valencia,A,1,0,W
+Real Madrid,2026-03-07,Sevilla,H,4,1,W
+Real Madrid,2026-03-01,Betis,A,2,2,D
+Real Madrid,2026-02-22,Girona,H,3,0,W
+Bayern Munich,2026-03-22,Leipzig,H,3,1,W
+Bayern Munich,2026-03-15,Leverkusen,A,1,1,D
+Bayern Munich,2026-03-08,Wolfsburg,H,4,0,W
+Bayern Munich,2026-03-01,Stuttgart,H,3,0,W
+Bayern Munich,2026-02-21,Dortmund,A,2,0,W
+Liverpool,2026-03-22,Newcastle,A,2,1,W
+Liverpool,2026-03-15,Spurs,H,3,1,W
+Liverpool,2026-03-08,Chelsea,A,2,1,W
+Liverpool,2026-03-01,Man Utd,H,4,1,W
+Liverpool,2026-02-22,Arsenal,A,1,1,D
+Barcelona,2026-03-22,Osasuna,H,4,1,W
+Barcelona,2026-03-14,Sevilla,A,2,0,W
+Barcelona,2026-03-07,Betis,H,3,1,W
+Barcelona,2026-03-01,Atletico Madrid,H,2,1,W
+Barcelona,2026-02-22,Getafe,A,2,1,W
+Paris Saint-Germain,2026-03-22,Lyon,H,3,0,W
+Paris Saint-Germain,2026-03-14,Nice,A,2,0,W
+Paris Saint-Germain,2026-03-07,Marseille,H,3,1,W
+Paris Saint-Germain,2026-03-01,Monaco,A,1,1,D
+Paris Saint-Germain,2026-02-22,Brest,H,4,1,W
+Arsenal,2026-03-22,Man City,H,1,0,W
+Arsenal,2026-03-15,Wolves,A,2,1,W
+Arsenal,2026-03-08,Brentford,H,3,0,W
+Arsenal,2026-03-01,Spurs,A,2,1,W
+Arsenal,2026-02-22,Liverpool,H,1,1,D
+Sporting CP,2026-03-22,Braga,H,3,1,W
+Sporting CP,2026-03-14,Rio Ave,A,2,0,W
+Sporting CP,2026-03-07,Vitoria,H,1,1,D
+Sporting CP,2026-03-01,Porto,A,0,1,L
+Sporting CP,2026-02-22,Famalicao,H,2,0,W
+Juventus,2026-03-22,Udinese,H,2,0,W
+Juventus,2026-03-15,Fiorentina,A,1,1,D
+Juventus,2026-03-08,Inter Milan,H,1,2,L
+Juventus,2026-03-01,Roma,H,3,1,W
+Juventus,2026-02-22,Napoli,A,1,1,D
+Atletico Madrid,2026-03-22,Betis,H,2,0,W
+Atletico Madrid,2026-03-14,Villarreal,A,1,0,W
+Atletico Madrid,2026-03-07,Girona,H,2,1,W
+Atletico Madrid,2026-03-01,Barcelona,A,1,2,L
+Atletico Madrid,2026-02-22,Getafe,H,3,0,W

@@ -1,0 +1,205 @@
+date,home_team,away_team,home_goals,away_goals,competition
+2024-04-17,Real Madrid,Manchester City,3,3,UCL
+2024-04-09,Manchester City,Real Madrid,1,1,UCL
+2023-05-17,Manchester City,Real Madrid,4,0,UCL
+2023-05-09,Real Madrid,Manchester City,1,1,UCL
+2022-04-26,Real Madrid,Manchester City,3,1,UCL
+2022-04-04,Manchester City,Real Madrid,4,3,UCL
+2023-04-19,Bayern Munich,Manchester City,0,0,UCL
+2023-04-11,Manchester City,Bayern Munich,3,0,UCL
+2021-09-15,Manchester City,Bayern Munich,6,3,UCL
+2021-10-06,Bayern Munich,Manchester City,2,0,UCL
+2019-09-17,Manchester City,Bayern Munich,1,3,UCL
+2024-11-23,Liverpool,Manchester City,2,0,PL
+2024-03-10,Manchester City,Liverpool,1,1,PL
+2023-11-25,Manchester City,Liverpool,1,1,PL
+2023-04-01,Manchester City,Liverpool,4,1,PL
+2022-10-16,Manchester City,Liverpool,1,0,PL
+2022-04-16,Manchester City,Liverpool,2,3,FA Cup
+2023-10-25,Barcelona,Manchester City,1,1,UCL
+2023-11-07,Manchester City,Barcelona,3,2,UCL
+2016-10-19,Manchester City,Barcelona,3,1,UCL
+2016-11-01,Barcelona,Manchester City,4,0,UCL
+2014-10-01,Manchester City,Barcelona,1,2,UCL
+2021-05-10,Manchester City,Paris Saint-Germain,2,0,UCL
+2021-04-28,Paris Saint-Germain,Manchester City,1,2,UCL
+2023-11-07,Manchester City,Paris Saint-Germain,4,1,UCL
+2023-10-24,Paris Saint-Germain,Manchester City,1,1,UCL
+2016-09-14,Manchester City,Paris Saint-Germain,4,2,UCL
+2024-09-22,Arsenal,Manchester City,2,2,PL
+2024-03-31,Manchester City,Arsenal,0,0,PL
+2023-04-26,Manchester City,Arsenal,4,1,PL
+2023-01-27,Arsenal,Manchester City,1,3,PL
+2022-08-28,Manchester City,Arsenal,5,0,PL
+2024-11-03,Manchester City,Sporting CP,1,2,PL
+2024-04-20,Sporting CP,Manchester City,0,1,PL
+2023-11-12,Manchester City,Sporting CP,3,3,PL
+2022-09-14,Manchester City,Sporting CP,0,0,PL
+2021-05-29,Manchester City,Sporting CP,0,1,UCL Final
+2021-09-15,Manchester City,Juventus,0,1,UCL
+2021-09-29,Juventus,Manchester City,0,1,UCL
+2015-10-21,Manchester City,Juventus,1,2,UCL
+2015-11-03,Juventus,Manchester City,0,0,UCL
+2022-04-05,Manchester City,Atletico Madrid,1,0,UCL
+2022-04-12,Atletico Madrid,Manchester City,0,0,UCL
+2016-09-28,Atletico Madrid,Manchester City,1,0,UCL
+2016-10-05,Manchester City,Atletico Madrid,1,0,UCL
+2024-05-08,Bayern Munich,Real Madrid,1,2,UCL
+2024-04-30,Real Madrid,Bayern Munich,2,2,UCL
+2023-04-25,Real Madrid,Bayern Munich,2,1,UCL
+2022-04-18,Bayern Munich,Real Madrid,1,0,UCL
+2022-04-12,Real Madrid,Bayern Munich,3,3,UCL
+2018-04-25,Real Madrid,Bayern Munich,2,1,UCL
+2024-03-05,Real Madrid,Liverpool,1,0,UCL
+2022-05-28,Real Madrid,Liverpool,1,0,UCL Final
+2021-04-14,Real Madrid,Liverpool,3,1,UCL
+2021-04-06,Liverpool,Real Madrid,0,0,UCL
+2019-06-01,Real Madrid,Liverpool,3,1,UCL Final
+2024-04-21,Real Madrid,Barcelona,3,2,La Liga
+2023-10-28,Barcelona,Real Madrid,1,2,La Liga
+2023-03-19,Real Madrid,Barcelona,0,1,La Liga
+2022-10-16,Barcelona,Real Madrid,3,1,La Liga
+2021-04-10,Real Madrid,Barcelona,2,1,La Liga
+2024-03-06,Real Madrid,Paris Saint-Germain,3,1,UCL
+2023-03-08,Paris Saint-Germain,Real Madrid,0,3,UCL
+2023-02-15,Real Madrid,Paris Saint-Germain,1,0,UCL
+2022-03-09,Paris Saint-Germain,Real Madrid,0,1,UCL
+2022-03-01,Real Madrid,Paris Saint-Germain,1,0,UCL
+2024-11-05,Arsenal,Real Madrid,0,2,UCL
+2024-10-22,Real Madrid,Arsenal,5,1,UCL
+2010-03-09,Real Madrid,Arsenal,1,3,UCL
+2010-02-16,Arsenal,Real Madrid,1,0,UCL
+2021-05-05,Real Madrid,Sporting CP,1,2,UCL
+2021-04-27,Sporting CP,Real Madrid,1,1,UCL
+2012-04-18,Sporting CP,Real Madrid,1,2,UCL
+2012-04-25,Real Madrid,Sporting CP,2,2,UCL
+2017-06-03,Real Madrid,Juventus,4,1,UCL Final
+2018-04-03,Real Madrid,Juventus,3,0,UCL
+2018-04-11,Juventus,Real Madrid,0,1,UCL
+2022-10-05,Real Madrid,Juventus,1,2,UCL
+2022-10-25,Juventus,Real Madrid,2,1,UCL
+2024-02-04,Real Madrid,Atletico Madrid,1,1,La Liga
+2023-09-24,Atletico Madrid,Real Madrid,3,1,La Liga
+2023-03-12,Real Madrid,Atletico Madrid,1,0,La Liga
+2022-09-18,Atletico Madrid,Real Madrid,2,1,La Liga
+2022-04-13,Real Madrid,Atletico Madrid,0,0,UCL
+2019-03-13,Bayern Munich,Liverpool,1,3,UCL
+2019-02-19,Liverpool,Bayern Munich,0,0,UCL
+2022-09-13,Bayern Munich,Liverpool,2,0,UCL
+2022-10-04,Liverpool,Bayern Munich,0,1,UCL
+2023-10-04,Barcelona,Bayern Munich,1,4,UCL
+2023-10-25,Bayern Munich,Barcelona,2,3,UCL
+2020-08-14,Bayern Munich,Barcelona,8,2,UCL QF
+2015-05-06,Bayern Munich,Barcelona,3,2,UCL
+2015-04-29,Barcelona,Bayern Munich,3,0,UCL
+2023-09-19,Bayern Munich,Paris Saint-Germain,2,0,UCL
+2023-11-22,Paris Saint-Germain,Bayern Munich,1,0,UCL
+2021-04-07,Bayern Munich,Paris Saint-Germain,1,2,UCL
+2021-04-13,Paris Saint-Germain,Bayern Munich,0,1,UCL
+2020-08-23,Bayern Munich,Paris Saint-Germain,1,0,UCL Final
+2015-10-20,Arsenal,Bayern Munich,1,5,UCL
+2015-10-06,Bayern Munich,Arsenal,5,1,UCL
+2014-02-19,Arsenal,Bayern Munich,0,2,UCL
+2014-03-11,Bayern Munich,Arsenal,1,1,UCL
+2020-02-25,Sporting CP,Bayern Munich,0,3,UCL
+2020-03-07,Bayern Munich,Sporting CP,4,1,UCL
+2023-10-04,Sporting CP,Bayern Munich,0,4,UCL
+2023-11-01,Bayern Munich,Sporting CP,2,0,UCL
+2022-09-13,Bayern Munich,Juventus,2,0,UCL
+2022-11-02,Juventus,Bayern Munich,2,0,UCL
+2016-09-14,Bayern Munich,Juventus,0,0,UCL
+2016-11-02,Juventus,Bayern Munich,2,0,UCL
+2013-04-02,Juventus,Bayern Munich,0,2,UCL
+2021-10-06,Bayern Munich,Atletico Madrid,4,0,UCL
+2021-09-29,Atletico Madrid,Bayern Munich,0,0,UCL
+2016-04-27,Bayern Munich,Atletico Madrid,1,0,UCL
+2016-05-03,Atletico Madrid,Bayern Munich,1,0,UCL
+2019-05-07,Liverpool,Barcelona,4,0,UCL
+2019-04-30,Barcelona,Liverpool,3,0,UCL
+2007-03-06,Liverpool,Barcelona,0,1,UCL
+2007-02-21,Barcelona,Liverpool,2,1,UCL
+2018-09-18,Liverpool,Paris Saint-Germain,3,2,UCL
+2018-11-28,Paris Saint-Germain,Liverpool,2,1,UCL
+2024-11-05,Liverpool,Paris Saint-Germain,1,0,UCL
+2019-10-02,Paris Saint-Germain,Liverpool,2,3,UCL
+2024-10-26,Arsenal,Liverpool,2,2,PL
+2024-02-04,Liverpool,Arsenal,3,1,PL
+2023-12-23,Liverpool,Arsenal,1,1,PL
+2023-04-09,Liverpool,Arsenal,2,2,PL
+2024-10-13,Sporting CP,Liverpool,1,1,PL
+2024-01-31,Liverpool,Sporting CP,4,1,PL
+2023-10-21,Sporting CP,Liverpool,1,1,PL
+2022-05-14,Sporting CP,Liverpool,0,0,FA Cup Final
+2023-09-19,Liverpool,Juventus,2,1,UCL
+2023-10-03,Juventus,Liverpool,1,1,UCL
+2018-04-11,Liverpool,Juventus,2,0,UCL
+2018-04-03,Juventus,Liverpool,0,1,UCL
+2021-09-15,Liverpool,Atletico Madrid,3,2,UCL
+2021-11-03,Atletico Madrid,Liverpool,2,0,UCL
+2020-03-11,Liverpool,Atletico Madrid,2,3,UCL
+2020-02-18,Atletico Madrid,Liverpool,1,0,UCL
+2024-04-16,Barcelona,Paris Saint-Germain,3,2,UCL
+2024-04-10,Paris Saint-Germain,Barcelona,4,1,UCL
+2021-03-10,Barcelona,Paris Saint-Germain,1,4,UCL
+2021-02-16,Paris Saint-Germain,Barcelona,4,1,UCL
+2017-03-08,Barcelona,Paris Saint-Germain,6,1,UCL
+2010-03-08,Barcelona,Arsenal,3,1,UCL
+2010-02-16,Arsenal,Barcelona,2,2,UCL
+2011-03-08,Barcelona,Arsenal,3,1,UCL
+2011-02-16,Arsenal,Barcelona,2,1,UCL
+2016-02-23,Barcelona,Arsenal,3,1,UCL
+2018-02-20,Barcelona,Sporting CP,1,1,UCL
+2018-03-14,Sporting CP,Barcelona,1,2,UCL
+2012-04-18,Sporting CP,Barcelona,1,0,UCL
+2012-04-24,Barcelona,Sporting CP,2,2,UCL
+2015-06-06,Barcelona,Juventus,3,1,UCL Final
+2017-10-24,Barcelona,Juventus,3,0,UCL
+2017-09-12,Juventus,Barcelona,0,2,UCL
+2022-10-12,Barcelona,Juventus,2,0,UCL
+2022-11-02,Juventus,Barcelona,0,0,UCL
+2024-04-07,Barcelona,Atletico Madrid,3,0,La Liga
+2023-12-13,Atletico Madrid,Barcelona,1,0,La Liga
+2023-10-21,Barcelona,Atletico Madrid,1,1,La Liga
+2022-10-22,Atletico Madrid,Barcelona,1,0,La Liga
+2022-03-13,Barcelona,Atletico Madrid,0,1,La Liga
+2016-11-23,Paris Saint-Germain,Arsenal,2,2,UCL
+2016-09-13,Arsenal,Paris Saint-Germain,1,1,UCL
+2023-10-04,Paris Saint-Germain,Arsenal,2,0,UCL
+2023-11-01,Arsenal,Paris Saint-Germain,1,2,UCL
+2023-09-19,Sporting CP,Paris Saint-Germain,0,1,UCL
+2023-10-24,Paris Saint-Germain,Sporting CP,3,0,UCL
+2015-02-17,Sporting CP,Paris Saint-Germain,1,1,UCL
+2015-03-11,Paris Saint-Germain,Sporting CP,2,2,UCL
+2022-09-06,Paris Saint-Germain,Juventus,2,1,UCL
+2022-10-05,Juventus,Paris Saint-Germain,1,2,UCL
+2014-09-17,Juventus,Paris Saint-Germain,2,2,UCL
+2014-10-22,Paris Saint-Germain,Juventus,3,2,UCL
+2016-10-18,Atletico Madrid,Paris Saint-Germain,1,0,UCL
+2016-11-01,Paris Saint-Germain,Atletico Madrid,2,0,UCL
+2021-09-28,Paris Saint-Germain,Atletico Madrid,3,2,UCL
+2021-10-19,Atletico Madrid,Paris Saint-Germain,1,0,UCL
+2024-10-06,Arsenal,Sporting CP,1,1,PL
+2024-04-23,Sporting CP,Arsenal,5,0,PL
+2023-11-04,Sporting CP,Arsenal,2,2,PL
+2023-05-02,Sporting CP,Arsenal,3,1,PL
+2022-11-06,Arsenal,Sporting CP,1,0,PL
+2023-09-20,Arsenal,Juventus,3,1,UCL
+2023-11-08,Juventus,Arsenal,1,1,UCL
+2005-11-23,Arsenal,Juventus,2,0,UCL
+2005-12-07,Juventus,Arsenal,0,0,UCL
+2018-04-26,Arsenal,Atletico Madrid,1,1,UEL
+2018-05-03,Atletico Madrid,Arsenal,1,0,UEL
+2023-09-20,Arsenal,Atletico Madrid,2,0,UCL
+2023-11-08,Atletico Madrid,Arsenal,1,1,UCL
+2021-11-23,Juventus,Sporting CP,1,0,UCL
+2021-12-08,Sporting CP,Juventus,4,0,UCL
+2009-09-16,Sporting CP,Juventus,1,0,UCL
+2009-10-21,Juventus,Sporting CP,0,0,UCL
+2021-02-23,Atletico Madrid,Sporting CP,0,1,UCL
+2021-03-17,Sporting CP,Atletico Madrid,2,0,UCL
+2017-09-27,Sporting CP,Atletico Madrid,2,1,UCL
+2017-10-18,Atletico Madrid,Sporting CP,0,2,UCL
+2019-02-20,Atletico Madrid,Juventus,2,0,UCL
+2019-03-12,Juventus,Atletico Madrid,3,0,UCL
+2015-10-21,Juventus,Atletico Madrid,0,0,UCL
+2015-11-04,Atletico Madrid,Juventus,0,0,UCL
