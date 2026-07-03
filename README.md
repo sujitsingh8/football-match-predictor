@@ -156,17 +156,3 @@ Then follow the on-screen prompts to select a home and away team.
 | 10 | Atletico Madrid | La Liga |
 
 ---
-
-## Extending the Project
-
-**Adding more teams:** Update the `TEAMS` dictionary in `main.py` and add corresponding rows in both CSV files. Team names must match exactly across all files.
-
-**Adjusting prediction weights:** Modify the composite score line in `predictor.py`:
-
-```python
-s1 = 0.20 * ht1 + 0.55 * ft1 + 0.25 * gt1
-#    ^^^^          ^^^^          ^^^^
-#    H2H           Form          xG
-```
-
-**Updating form data:** Replace or append rows in `recent_form.csv` with the latest 5 matches per team. Keep dates in `YYYY-MM-DD` format and venue as `H` or `A`.
