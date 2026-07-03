@@ -16,7 +16,7 @@ class FootballPredictor:
         self.h2h_rows  = _load_csv('h2h_data.csv')
         self.form_rows = _load_csv('recent_form.csv')
 
-    # ── Data Loaders ─────────────────────────────────────────────────────────
+    # Data Loaders
 
     def get_h2h(self, team1, team2):
         matches = [
@@ -95,13 +95,13 @@ class FootballPredictor:
             away_rating=_sub_rating(away_rows),
         )
 
-    # ── Prediction Engine ─────────────────────────────────────────────────────
+    # Prediction Engine
 
     def _calculate(self, h2h, f1, f2):
         # Home advantage: top-flight home teams score ~8% more and concede ~8% less
         HOME_EDGE = 0.08
 
-        # ─── H2H component (20% weight) ──────────────────────────────────────
+        # H2H component (20% weight)
         if h2h:
             # Blend all-time (40%) with most-recent 4 (60%) for recency bias
             ht1 = 0.40 * h2h['t1wr'] + 0.60 * h2h['rt1wr']
@@ -113,7 +113,7 @@ class FootballPredictor:
         else:
             ht1, ht2, hdr = 0.40, 0.34, 0.26   # default: slight home edge
 
-        # ─── Form component (55% weight) ─────────────────────────────────────
+        # Form component (55% weight)
         # Use venue-specific sub-ratings when available:
         #   team1 is HOME  → prefer their home_rating
         #   team2 is AWAY  → prefer their away_rating
@@ -131,7 +131,7 @@ class FootballPredictor:
         ft = r1 + r2 or 1.0
         ft1, ft2 = r1 / ft, r2 / ft
 
-        # ─── Expected Goals component (25% weight) ────────────────────────────
+        # Expected Goals component (25% weight)
         if f1 and f2:
             # Apply home edge to team1's attack and team2's attack
             xg1 = (f1['avg_for'] * (1 + HOME_EDGE * 0.5) + f2['avg_against']) / 2
@@ -153,11 +153,11 @@ class FootballPredictor:
         gt = xg1 + xg2 or 1.0
         gt1, gt2 = xg1 / gt, xg2 / gt
 
-        # ─── Composite strength ───────────────────────────────────────────────
+        # Composite strength
         s1 = 0.20 * ht1 + 0.55 * ft1 + 0.25 * gt1
         s2 = 0.20 * ht2 + 0.55 * ft2 + 0.25 * gt2
 
-        # ─── Draw probability ─────────────────────────────────────────────────
+        # Draw probability
         # Base = blend of H2H draw rate + typical top-football average (~27%)
         base_dr = 0.50 * hdr + 0.50 * 0.27
         # Closeness boost: evenly-matched teams produce more draws
@@ -165,14 +165,14 @@ class FootballPredictor:
         closeness_boost = 0.12 * max(0.0, 1.0 - norm_diff * 4)
         dp = max(0.12, min(0.35, base_dr + closeness_boost))
 
-        # ─── Win probabilities ────────────────────────────────────────────────
+        # Win probabilities
         st = s1 + s2 or 1.0
         w1 = (1 - dp) * (s1 / st)
         w2 = (1 - dp) * (s2 / st)
         tot = w1 + dp + w2
         w1 /= tot; dp /= tot; w2 /= tot
 
-        # ─── Predicted scoreline ─────────────────────────────────────────────
+        # Predicted scoreline
         sc1 = max(0, round(xg1))
         sc2 = max(0, round(xg2))
 
@@ -183,7 +183,7 @@ class FootballPredictor:
 
         return w1, dp, w2, sc1, sc2, xg1, xg2
 
-    # ── Display ───────────────────────────────────────────────────────────────
+    # Display
 
     @staticmethod
     def _bar(p, width=26):
@@ -201,7 +201,7 @@ class FootballPredictor:
 
         SEP = "  " + "─" * 54
 
-        # ── Head to Head ──────────────────────────────────────────────────────
+        # Head to Head
         print(f"\n  HEAD TO HEAD HISTORY")
         print(SEP)
         if h2h:
@@ -220,7 +220,7 @@ class FootballPredictor:
         else:
             print("  No H2H records found. Prediction based on recent form only.")
 
-        # ── Recent Form ───────────────────────────────────────────────────────
+        # Recent Form
         print(f"\n  RECENT FORM  (Last 5 Games)")
         print(SEP)
         for team, form in [(team1, f1), (team2, f2)]:
@@ -233,7 +233,7 @@ class FootballPredictor:
             else:
                 print(f"\n  {team}  :  No recent form data.")
 
-        # ── Prediction Result ─────────────────────────────────────────────────
+        # Prediction Result
         w1, dp, w2, sc1, sc2, xg1, xg2 = self._calculate(h2h, f1, f2)
 
         if   w1 > w2 and w1 > dp: outcome = f"{team1}  WIN"
