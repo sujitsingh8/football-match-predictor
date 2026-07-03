@@ -1,10 +1,10 @@
-# ⚽ Football Match Predictor
+# Football Match Predictor
 
 A terminal-based football match outcome predictor that uses head-to-head history, recent form, and expected goals (xG) to forecast results between top clubs.
 
 ---
 
-## 📸 Demo
+## Demo
 
 ```
 ========================================================
@@ -46,7 +46,7 @@ A terminal-based football match outcome predictor that uses head-to-head history
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The predictor combines three data sources into a weighted composite score:
 
@@ -63,7 +63,7 @@ The predictor combines three data sources into a weighted composite score:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 football-match-predictor/
@@ -78,7 +78,7 @@ football-match-predictor/
 
 ---
 
-## 📊 Data Format
+## Data Format
 
 **`data/h2h_data.csv`** — 204 matches across UCL, La Liga, Premier League and more
 
@@ -123,7 +123,7 @@ Bayern Munich,2026-02-21,Dortmund,A,2,0,W
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **Requirements:** Python 3.7+, no external libraries needed.
 
@@ -140,7 +140,7 @@ Then follow the on-screen prompts to select a home and away team.
 
 ---
 
-## 🏟️ Supported Teams
+## Supported Teams
 
 | # | Team | League |
 |---|---|---|
@@ -157,7 +157,7 @@ Then follow the on-screen prompts to select a home and away team.
 
 ---
 
-## 🔧 Extending the Project
+## Extending the Project
 
 **Adding more teams:** Update the `TEAMS` dictionary in `main.py` and add corresponding rows in both CSV files. Team names must match exactly across all files.
 
